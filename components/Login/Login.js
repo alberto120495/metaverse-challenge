@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useMoralis } from "react-moralis";
 
 function Login() {
