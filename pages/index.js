@@ -2,6 +2,7 @@ import Head from "next/head";
 import Login from "../components/Login/Login";
 import { useMoralis } from "react-moralis";
 import Header from "../components/Header/Header";
+import Messages from "../components/Messages/Messages";
 
 export default function Home() {
   const { isAuthenticated } = useMoralis();
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <div className="max-w-screen-2xl mx-auto">
         <Header />
+        <Messages />
       </div>
     </div>
   );
